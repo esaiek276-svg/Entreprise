@@ -1,0 +1,12 @@
+# robots.txt — E.C.K.F SARL
+# https://entrepriseesaie.netlify.app/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://entrepriseesaie.netlify.app/sitemap.xml
+
+# Empêcher l'indexation de fichiers inutiles (si présents)
+Disallow: /*.json$
+Disallow: /node_modules/
